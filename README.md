@@ -1,1 +1,3 @@
 # Python-Auction-Project1
+
+This is a basic auction project. In it you will asked for your name. Then you will name the item to be auctioned off and then the price. Once the price is set you will be asked if you would like to bid on the item for the price set earlier. If prompted yes you will place a bid on the item if the bid is equal or greater then the price set. You will when the auction. If the bid is lower then the set price then you will have to oppurtunity to keep the bidding on the item until you win. You can also decline the initial do you want to bid on the item prompt. If no is chosen you will be redirected to the prompt where you name the item to be sold and process will repeat. 
