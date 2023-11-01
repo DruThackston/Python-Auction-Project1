@@ -1,10 +1,11 @@
 
+print("=========Python Auction Project=========")
+name = input("What is your name? \n")
+print(f"Hello {name}!")
 
-
-def auction(): 
-  name = input("What is your name? \n")
-  item = input(f"Hello {name} \nWhat is the name of the item you are selling?\n")
-  price = float(input(f"How much do you want to post the {item} for?\n$"))
+def auction():
+  item = input(f"{name} what is the name of the item you are selling?\n")
+  price = float(input(f"How much do you want to post the {item} for {name}?\n$"))
   
   return name, item, price
 
@@ -30,9 +31,9 @@ def options(name, item, price):
 
 
 
-  
-name, item, price = auction()
-result = options(name, item, price)
+while True: 
+    name, item, price = auction()
+    result = options(name, item, price)
 
-print(result)
+    print(result)
 
